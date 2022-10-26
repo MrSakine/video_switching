@@ -27,8 +27,6 @@ function getData() {
 }
 
 function changeVideo() {
-    console.log(data.length);
-
     button.addEventListener("click", () => {
         if (data.length <= 0) {
             getData()
